@@ -27,7 +27,60 @@
 .App-link {
   color: #61dafb;
 }
+.form-container {
+  background-color: #f5deb3; /* couleur de papier ou parchemin */
+  border: 1px solid #a0522d; /* couleur de cadre */
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.form-container input[type="number"] {
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #a0522d;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  margin-left:20px
+}
+
+.form-container button[type="submit"] {
+  background-color: #a0522d;
+  text-align: center;
+  align-self: center;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #8b4513;
+  cursor: pointer;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 200px;
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
